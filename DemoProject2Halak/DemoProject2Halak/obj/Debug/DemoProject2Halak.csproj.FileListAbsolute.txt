@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.exe.config
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.exe
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.pdb
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.Form1.resources
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.Properties.Resources.resources
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.exe
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.pdb
+C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csprojAssemblyReference.cache
