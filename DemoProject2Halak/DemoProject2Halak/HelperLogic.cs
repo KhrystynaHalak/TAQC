@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace DemoProject2Halak
 {
     class HelperLogic
     {
+        XmlDocument a;
+        XDocument b = XDocument.Load(@"C:/Users/galak/Desktop/ProductsSortedByID.xml");
         public static List<IProduct> prod = new List<IProduct>();
 
         public void AddInstances()
@@ -24,8 +27,17 @@ namespace DemoProject2Halak
             prod.Add(new Kefir(12, "Matzoon", 5, 63));
             prod.Add(new Kefir(12, "Mursik", 5, 13));
             prod.Add(new Kefir(12, "Leben", 5, 10));
-        }
 
+            //var studentLst = b.Descendants("Products").Select(d =>
+            //new
+            //{
+            //    Price = d.Element("Price").Value,
+            //    Name = d.Element("Product Name").Value,
+            //    Quantity = d.Element("Quantity").Value,
+            //    id = d.Element("Id").Value,
+            //}).ToList();
+
+        }
         public void SortedMilkProducts(TextBox textBox)
         {
             textBox.Text += "\r\nThe list of milk products with price less than set\r\n";
@@ -36,6 +48,7 @@ namespace DemoProject2Halak
                 {
                     MilkProducts l = (MilkProducts)item;
                     l.PriceNotHigher(300, textBox);
+
                 }
             }
         }
@@ -50,6 +63,75 @@ namespace DemoProject2Halak
                     MeatProducts l = (MeatProducts)item;
                     l.HigherQuantity(1, textBox);
                 }
+            }
+        }
+        public void ToXMLSortedMilkProducts()
+        {
+            List<IProduct> lm = new List<IProduct>();
+            foreach (var item in prod)
+            {
+                if (item.GetType() == typeof(Milk) || item.GetType() == typeof(Kefir))
+                {
+                    TextBox textBox = new TextBox();
+                    textBox.Text = "  ";
+
+                    MilkProducts l = (MilkProducts)item;
+                    l.PriceNotHigher(300, textBox);
+
+                    lm.Add(l);
+                }
+            }
+            try
+            {
+                var xEle = new XElement("Products",
+                    from ll in lm
+                    select new XElement("Product",
+                                   new XElement("Name", ll.Name),
+                                   new XElement("Price", ll.Price),
+                                   new XElement("Quantity", ll.Quantity),
+                                   new XElement("ID", ll.ID)
+                               ));
+
+                xEle.Save("SortedMilkProducts.xml");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        public void ToXMLSortedMeatProducts()
+        {
+            List<IProduct> mp = new List<IProduct>();
+            foreach (var item in prod)
+            {
+                if (item.GetType() == typeof(Meat) || item.GetType() == typeof(Sausage))
+                {
+                    TextBox textBox = new TextBox();
+                    textBox.Text = "  ";
+
+                    MeatProducts mm = (MeatProducts)item;
+                    mm.HigherQuantity(1, textBox);
+
+                    mp.Add(mm);
+                }
+            }
+            try
+            {
+                var xEle = new XElement("Products",
+                    from ll in mp
+                    select new XElement("Product",
+                                   new XElement("Name", ll.Name),
+                                   new XElement("Price", ll.Price),
+                                   new XElement("Quantity", ll.Quantity),
+                                   new XElement("ID", ll.ID)
+                               ));
+
+                xEle.Save("SortedMeatProducts.xml");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
             }
         }
 
@@ -68,16 +150,16 @@ namespace DemoProject2Halak
             List<IProduct> sortedProducts = prod.OrderBy(o => o.ID).ToList();
             try
             {
-                var xEle = new XElement("Employees",
+                var xEle = new XElement("Products",
                             from sp in sortedProducts
-                            select new XElement("Employee",
+                            select new XElement("Product",
                                          new XAttribute("Name", sp.Name),
                                            new XElement("Price", sp.Price),
                                            new XElement("Quantity", sp.Quantity),
                                            new XElement("ID", sp.ID)
                                        ));
 
-                xEle.Save(@"C:\Users\User\Desktop\ProductsSortedByID.xml");
+                xEle.Save(@"C:\Users\galak\Desktop\ProductsSortedByID.xml");
                 Console.WriteLine("Converted to XML");
             }
             catch (Exception ex)

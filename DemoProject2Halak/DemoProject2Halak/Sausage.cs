@@ -22,10 +22,10 @@ namespace DemoProject2Halak
 
         public Sausage(int price, string name, int quantity, int id)
         {
-            this.Price = price;
-            this.Name = name;
-            this.Quantity = quantity;
-            this.ID = id;
+            Price = price;
+            Name = name;
+            Quantity = quantity;
+            ID = id;
         }
         public override void HigherQuantity(int setQuantity, TextBox textbox)
         {

@@ -8,3 +8,23 @@ C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoPr
 C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.exe
 C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.pdb
 C:\Users\User\Desktop\Tasks\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csprojAssemblyReference.cache
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.exe.config
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.exe
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.pdb
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csprojAssemblyReference.cache
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.Form1.resources
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.Properties.Resources.resources
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csproj.GenerateResource.cache
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csproj.CoreCompileInputs.cache
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.exe
+C:\Users\galak\Desktop\Нова папка (3)\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.pdb
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.exe.config
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.exe
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\bin\Debug\DemoProject2Halak.pdb
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csprojAssemblyReference.cache
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.Form1.resources
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.Properties.Resources.resources
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csproj.GenerateResource.cache
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.csproj.CoreCompileInputs.cache
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.exe
+C:\Users\galak\Desktop\MondayDemo\TAQC\DemoProject2Halak\DemoProject2Halak\obj\Debug\DemoProject2Halak.pdb

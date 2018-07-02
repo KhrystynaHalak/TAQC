@@ -7,13 +7,13 @@ using System.Xml.Serialization;
 
 namespace DemoProject2Halak
 {
-    interface IProduct
+    public interface IProduct
     {
         int Price { get; set; }
 
         string Name { get; set; }
 
-        int Quantity { get; set;}
+        int Quantity { get; set; }
 
         int ID { get; set; }
     }

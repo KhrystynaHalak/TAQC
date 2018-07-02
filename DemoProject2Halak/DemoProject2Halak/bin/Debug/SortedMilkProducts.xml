@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <Product>
+    <Name>Buttermilk</Name>
+    <Price>135</Price>
+    <Quantity>5</Quantity>
+    <ID>9</ID>
+  </Product>
+  <Product>
+    <Name>Shubat</Name>
+    <Price>12</Price>
+    <Quantity>5</Quantity>
+    <ID>89</ID>
+  </Product>
+  <Product>
+    <Name>Chalap</Name>
+    <Price>135</Price>
+    <Quantity>5</Quantity>
+    <ID>23</ID>
+  </Product>
+  <Product>
+    <Name>Matzoon</Name>
+    <Price>12</Price>
+    <Quantity>5</Quantity>
+    <ID>63</ID>
+  </Product>
+  <Product>
+    <Name>Mursik</Name>
+    <Price>12</Price>
+    <Quantity>5</Quantity>
+    <ID>13</ID>
+  </Product>
+  <Product>
+    <Name>Leben</Name>
+    <Price>12</Price>
+    <Quantity>5</Quantity>
+    <ID>10</ID>
+  </Product>
+</Products>

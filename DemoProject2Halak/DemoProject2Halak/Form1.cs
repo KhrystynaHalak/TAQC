@@ -24,11 +24,13 @@ namespace DemoProject2Halak
         private void btn_SortQuantity_Click(object sender, EventArgs e)
         {
             hl.SortedMeatProducts(txt_ShowData);
+            hl.ToXMLSortedMeatProducts();
         }
 
         private void btn_Sort_Click(object sender, EventArgs e)
         {
             hl.SortedMilkProducts(txt_ShowData);
+            hl.ToXMLSortedMilkProducts();
         }
 
         private void CodeDescendingList_Click(object sender, EventArgs e)
